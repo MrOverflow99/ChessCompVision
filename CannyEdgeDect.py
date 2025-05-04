@@ -146,20 +146,18 @@ def find_contours(edge_image):
                     contours.append(contour)
     return contours
 
-# Example usage
+# ES
 if __name__ == "__main__":
-    # Load an image (replace with your own grayscale image)
-    # This example uses a simple test pattern
+
     from skimage.data import camera
     image = camera()  # Grayscale test image
     
-    # Perform Canny Edge Detection
+    # Applichiamo il Canny
     edges = canny(image, sigma=1.4, kernel_size=5, low_threshold=0.05, high_threshold=0.15)
     
-    # Find contours
     contours = find_contours(edges)
     
-    # Display results
+    # VEDIAMO RISULTATI
     plt.figure(figsize=(12, 6))
     plt.subplot(121)
     plt.imshow(image, cmap='gray')
@@ -170,7 +168,7 @@ if __name__ == "__main__":
     plt.title('Edge Detection Result')
     
     # Plot contours
-    for cnt in contours[:5]:  # Plot first 5 contours for demonstration
+    for cnt in contours[:5]: 
         cnt = np.array(cnt)
         plt.plot(cnt[:,1], cnt[:,0], 'r', linewidth=0.5)
     
