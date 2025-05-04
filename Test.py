@@ -221,7 +221,7 @@ def draw_board_with_pieces(board_img, board_state):
     cv2.destroyAllWindows()
 
 def main():
-    image_path = "Foto1.jpg"
+    image_path = "immRilevate/chessboard_cropped.jpg"
     reference_image_path = "ScacchieraCompleta1.jpg"
     if not os.path.exists(image_path):
         print(f"ERRORE: L'immagine {image_path} non esiste.")

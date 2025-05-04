@@ -251,7 +251,7 @@ def analyze_with_stockfish(fen, stockfish_path=r"stockfish/stockfish.exe"):
 
 
 def main():
-    image_path = "Foto1.jpg"
+    image_path = "immRilevate/chessboard_cropped.jpg"
     reference_image_path = "ScacchieraCompleta1.jpg"
     
     if not os.path.exists(image_path):
