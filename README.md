@@ -52,6 +52,9 @@ The user can also customize the amount of time given to Stockfish by modifying t
 
 As stated earlier, this project is developed solely for academic purposes, specifically for the Computer Vision course.
 
+For the presentation follow the link:
+https://gamma.app/docs/Computer-Vision-Project-ChessCompVision-1ollyf1f07alhdo?mode=doc
+
 AUTHORS: Raffaele Cammi, Michele Di Frisco Ramirez
 
 Date: March–April 2025
