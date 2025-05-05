@@ -52,4 +52,5 @@ The user can also customize the amount of time given to Stockfish by modifying t
 As stated earlier, this project is developed solely for academic purposes, specifically for the Computer Vision course.
 
 AUTHORS: Raffaele Cammi, Michele Di Frisco Ramirez
+
 Date: March–April 2025
