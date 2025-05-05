@@ -41,6 +41,7 @@ Stato della scacchiera rilevato:
 FEN notation: 2k5/p1qn4/Ppp1p3/7p/2Q1p3/1P4r1/1BP3P1/R5K1 w KQkq - 0 1
 
 Stockfish analysis:
+
 Best move: c4e6  
 Score: PovScore(Cp(+545), WHITE) (centipawn)  
 Depth: 28 plies
