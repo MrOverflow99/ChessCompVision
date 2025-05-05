@@ -10,22 +10,8 @@ Once the chessboard has been correctly detected, the user can run testStockfish.
 This second script will not only recognize the position of the chess pieces on the board, but also provide additional useful information, such as:
 
 Example output:
+
 FEN notation: 2k5/p1qn4/Ppp1p3/7p/2Q1p3/1P4r1/1BP3P1/R5K1 w KQkq - 0 1
-
-Detected board state:
-  a b c d e f g h
- +-----------------+
-8| . . k . . . . . |
-7| p . q n . . . . |
-6| P p p . p . . . |
-5| . . . . . . . p |
-4| . . Q . p . . . |
-3| . P . . . . r . |
-2| . B P . . . P . |
-1| R . . . . . K . |
- +-----------------+
-  a b c d e f g h
-
 Stockfish analysis:
 Best move: c4e6  
 Score: PovScore(Cp(+545), WHITE) (centipawn)  
